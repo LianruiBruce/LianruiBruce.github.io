@@ -25,7 +25,8 @@ June 2019 – March 2020
   
 Skills
 ======
-* Java/C#
+* Java
+* C#
 * MATLAB
 * C++/C
 * JavaScipt
