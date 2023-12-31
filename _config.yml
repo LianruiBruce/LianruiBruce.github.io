@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lianrui's personal page"
+title                    : "Lianrui's page"
 title_separator          : "-"
 name                     : &name "Lianrui Geng"
 description              : &description "personal description"
