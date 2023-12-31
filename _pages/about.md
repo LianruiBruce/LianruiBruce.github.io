@@ -25,6 +25,7 @@ I thrive in collaborative environments, working alongside peers to address compl
     I've channeled my coding skills into creating engaging games. Using C#, I developed versions of the popular Snake Game and Agar.io, incorporating client-server architecture for multiplayer experiences.
   * Computer Graphics Explorations：
     Recently, I've delved into computer graphics, creating projects centered on ray tracing, rasterization, and simulations. These were crafted using JavaScript and WebGL's shader technology, demonstrating my ability to learn and apply new skills rapidly.
+  To see more Projects I made, check this. [Lianrui's Github](https://github.com/LianruiBruce?tab=repositories)
 
 A Kind and Friendly Explorer
 ------
