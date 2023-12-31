@@ -7,36 +7,37 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Math minor, University of Utah, 2024
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+June 2019 – March 2020
+* Instructor, Qizhi Education Organization, Harbin, China
+  * Teaching high school students Math, Physics, and English
+  * Led students to achieve top 1% ranking in high school education.
+  * Recognized for excellence in teaching with multiple awards.
+  * Fostered and maintained positive relationships with students and fellow instructors.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Java/C#
+* MATLAB
+* C++/C
+* JavaScipt
+* python
+* SQL
+* HTML/CSS
+  * Django
 
-Publications
+
+
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -56,4 +57,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
