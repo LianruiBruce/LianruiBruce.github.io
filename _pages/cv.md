@@ -35,6 +35,10 @@ Skills
 * HTML/CSS
   * Django
 
+My Resume
+------
+[Lianrui's Resume](http://lianruibruce.github.io/files/Geng_resume.pdf)
+
 
 
 
