@@ -15,6 +15,11 @@ Education
 
 Work experience
 ======
+May 2023 – August 2023
+* Computer Service Support Administrator, Jilin Baiqi Pharmaceutical Co., Ltd, Bai City, China
+  * Manage and support network equipment and services. 
+  * Daily maintenance and technical support of the plant's internal office computers
+
 June 2019 – March 2020
 * Instructor, Qizhi Education Organization, Harbin, China
   * Teaching high school students Math, Physics, and English
