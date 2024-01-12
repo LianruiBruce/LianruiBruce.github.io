@@ -37,7 +37,7 @@ Skills
 
 My Resume
 ------
-[Lianrui's Resume](http://lianruibruce.github.io/files/Geng_resume.pdf)
+[Lianrui's Resume](http://lianruibruce.github.io/files/Geng_resume_capstone.pdf)
 
 
 
