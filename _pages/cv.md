@@ -10,49 +10,51 @@ redirect_from:
 <!-- {% include base_path %} -->
 
 # 🎓 Education
-- **B.S. in Computer Science**, Minor in Mathematics, **University of Utah** (08/2021 - 12/2024, expected)
-  - Overall GPA: **3.53/4.0**, Major GPA: **3.55/4.0**
-  - **Honors**: Dean’s List for Spring 2023, $6000 Scholarship over 4 academic years
+- **B.S. in Computer Science**, Minor in Mathematics, **University of Utah** (Expected Graduation: December 2024)
+  - **GPA**: 3.53/4.0 (Major GPA: 3.55/4.0)
+  - **Honors**: Dean's List (Spring 2023), $6000 Scholarship over four academic years
 
-# 💼 Recent Internship Experience
+# 💼 Internship Experience
 - **Game Development Engineer Intern (Remote)**, Aureum Gale Games, Los Angeles, CA (June - August 2024)
-  - Developed prototype for 3D game using **Unreal Engine 5** 🎮, creating interactive environments and mechanics with UE5 Blueprints.
-  - Collaborated with designers and artists to integrate game assets and design features seamlessly.
-  - Gained experience using **Git** for managing code and assets across a development team.
+  - Developed a prototype for a 3D game using **Unreal Engine 5**, creating interactive environments and mechanics with UE5 Blueprints.
+  - Worked closely with designers and artists to ensure smooth integration of game assets and features.
+  - Utilized **Git** for version control and team collaboration.
 
-- **Remote Site Maintenance / Web Developer**, Heilongjiang Guanjie Biotechnology Co., Ltd, Harbin, China (April - August 2024)
-  - Developed and maintained responsive websites using **HTML, CSS, and JavaScript** 🌐 to enhance user experience and functionality.
-  - Collaborated remotely with team members using **Git** and **Slack** to maintain effective communication and coordination.
-  - Implemented new features and fixed bugs based on user feedback, ensuring stable improvements in website performance and user satisfaction.
+- **Web Developer (Remote)**, Heilongjiang Guanjie Biotechnology Co., Ltd, Harbin, China (April - August 2024)
+  - Built and maintained responsive websites using **HTML, CSS, and JavaScript** to enhance user experience.
+  - Collaborated remotely via **Git** and **Slack** to maintain effective communication.
+  - Implemented new features and fixed bugs to improve website performance based on user feedback.
 
 # 💼 Work Experience
 - **Computer Service Support Administrator**, Jilin Baiqi Pharmaceutical Co., Ltd, Bai City, China (May - August 2023)
-  - Managed and supported network equipment and services.
-  - Conducted daily maintenance and provided technical support for the plant's internal office computers.
+  - Managed and supported network infrastructure and services.
+  - Provided technical support and daily maintenance for internal office computers.
 
 - **Instructor**, Qizhi Education Organization, Harbin, China (June 2019 - March 2020)
-  - Taught high school students **Math, Physics, and English** 📘.
-  - Led students to achieve a top 1% ranking in high school education.
-  - Recognized for excellence in teaching with multiple awards.
-  - Fostered positive relationships with students and fellow instructors.
+  - Taught **Mathematics, Physics, and English** to high school students.
+  - Helped students achieve top 1% rankings in academic performance.
+  - Recognized for excellence in teaching, fostering strong relationships with students and peers.
 
 # 🔬 Research Projects
-- **Efficient GPU Screen-Space Ray Tracing**, University of Utah, Salt Lake City, UT (April - May 2024)
+- **Efficient GPU Screen-Space Ray Tracing**, University of Utah (April - May 2024)
   - **Advisor**: Prof. Yin Yang
-  - Designed project architecture and selected external libraries in a two-person team.
-  - Created shaders for ray tracing and scene rendering, implemented the **DDA line algorithm** using the GPU.
-  - Developed a new algorithm to reduce oversampling and prevent visual artifacts.
+  - Designed the architecture and selected libraries in a two-person team.
+  - Developed shaders for ray tracing and scene rendering, utilizing the **DDA line algorithm**.
+  - Created a new algorithm to minimize oversampling and visual artifacts.
 
-- **Graduation Project - Wrap**, University of Utah, Salt Lake City, UT (January - December 2024)
+- **Graduation Project - Wrap**, University of Utah (January - December 2024)
   - **Advisors**: Prof. Fengjiao Wang & Prof. J. Davison de St. Germain
-  - Led the full-stack web development, using **React** for front-end and **Node.js** for back-end.
-  - Deployed on **AWS EC2** with **NGINX**, using **PM2** for monitoring and **HTTPS** for secure communication.
-  - Developed a web extension integrated with **NLP models** from Hugging Face for summarizing legal documents.
+  - Led full-stack development using **React** (front-end) and **Node.js** (back-end).
+  - Deployed on **AWS EC2** with **NGINX** and **PM2** for monitoring, ensuring secure communication with **HTTPS**.
+  - Integrated **NLP models** from Hugging Face for summarizing legal documents through a web extension.
 
 # 🛠 Skills
-- **Programming Languages**: Java, C#, C++, C, JavaScript, SQL, HTML/CSS, Python, MATLAB
-- **Frameworks/Tools**: Git, MySQL, MongoDB, AWS, Docker, Qt, Processing
-- **Web Development**: Node.js, React, MUI, Django, axios, express.js, mongoose, bcryptjs, Flask
+- **Programming Languages**:
+  - Java, C#, C++, C, Python, JavaScript, MATLAB, SQL
+- **Web Development**:
+  - HTML, CSS, Node.js, React, Django, Flask
+- **Frameworks & Tools**:
+  - Git, Docker, AWS, MySQL, MongoDB, Qt, Processing
 
 # 📄 My Resume
 [**Lianrui's Resume**](http://lianruibruce.github.io/files/Geng_Lianrui_Resume_0924.pdf)
