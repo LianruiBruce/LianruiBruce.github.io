@@ -1,43 +1,52 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About Me"
+excerpt: "Get to know Bruce, a passionate Computer Science student exploring the intersection of technology and creativity."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm Lianrui Geng, but you can call me Bruce. Currently, I'm on an exciting journey as a Computer Science undergraduate at the University of Utah, coupled with a minor in Mathematics. With my anticipated graduation in December 2024, I am eagerly exploring the vibrant intersection of technology and academia.
+# Hi, I'm Lianrui Geng (Bruce) 👋
 
-My Academic and Teaching Journey
-======
-My academic path is marked by a strong dedication to both computer science and mathematics, reflected in my current GPA of 3.64/4. However, I believe in measuring success not just by grades, but by the depth of one's curiosity and the effort invested in pursuing passions. This philosophy has led me to value hands-on experiences and practical learning.
+Currently, I'm an enthusiastic Computer Science undergraduate at the **University of Utah**, complemented by a minor in Mathematics. I'm set to graduate in **December 2024** and am keen to explore the vibrant intersection of technology, creativity, and academia.
 
-In the realm of education, I have had the privilege of serving as an assistant instructor with the educational organization "Qizhi," where I nurtured high school students' understanding of mathematics and physics. This experience honed my skills in communication and teaching, allowing me to share my passion for these subjects effectively.
+## 🎓 Academic Journey
 
-Coding, Collaboration, and Creativity
-======
-I thrive in collaborative environments, working alongside peers to address complex problems. My interest in coding is not just academic; it's a canvas for my creativity. Some of my notable projects include:
-  * Educational App:
-    A collaborative university project where we developed an application using C++ and Qt. This app introduces users to linear regression in Machine Learning through basic visualizations.
-  * Gaming Projects：
-    I've channeled my coding skills into creating engaging games. Using C#, I developed versions of the popular Snake Game and Agar.io, incorporating client-server architecture for multiplayer experiences.
-  * Computer Graphics Explorations：
-    Recently, I've delved into computer graphics, creating projects centered on ray tracing, rasterization, and simulations. These were crafted using JavaScript and WebGL's shader technology, demonstrating my ability to learn and apply new skills rapidly.
-  To see more Projects I made, check this. [Lianrui's Github](https://github.com/LianruiBruce?tab=repositories)
+My academic path reflects a strong dedication to both **computer science and mathematics**, backed by a GPA of **3.64/4**. For me, success isn't just about grades—it's about curiosity, exploration, and the passion put into learning. This approach drives me to seek practical, hands-on experiences.
 
-A Kind and Friendly Explorer
-------
-At heart, I am a kind, friendly individual who's always ready to dive into new experiences and learn rapidly. Whether it's a complex coding challenge or an unexplored mathematical concept, I approach each with an open mind and a collaborative spirit. 
+### 👨‍🏫 Teaching and Learning
 
-Looking Ahead
-------
-As I approach the culmination of my undergraduate studies, I am keen to extend my journey either through employment that challenges and grows my skill set or through a graduate project that allows me to delve deeper into my areas of interest. This website serves as a portal into my professional and academic life, showcasing my projects, skills, and aspirations.
+I also value the role of teaching. As an **assistant instructor** with the educational organization **Qizhi**, I helped high school students grasp mathematics and physics. This role has been instrumental in honing my communication and teaching skills, letting me share my enthusiasm for these subjects effectively.
 
-Let's Connect
-------
-If you're interested in learning more about my work, discussing potential collaborations, or considering me for opportunities that align with my skills and passions, please feel free to reach out. I am excited about the prospects that lie ahead and look forward to connecting with like-minded individuals and organizations.
+## 💻 Coding, Collaboration, and Creativity
+
+I thrive in collaborative environments and enjoy solving complex problems alongside my peers. Coding isn't just an academic exercise—it's a creative outlet. Below are some of the projects that showcase my work:
+
+- **Educational App**  
+  Developed a collaborative **university project** using **C++ and Qt**. The application introduces users to **linear regression in Machine Learning** with simple visualizations, providing an educational tool for beginners.
+
+- **Gaming Projects**  
+  Created engaging games in **C#**, including a version of the classic **Snake Game** and a multiplayer version of **Agar.io** with **client-server architecture**. These projects combined creativity with technical skills to deliver an entertaining experience.
+
+- **Computer Graphics Explorations**  
+  Recently, I've explored **computer graphics** through projects focused on **ray tracing, rasterization, and simulations**. These were built using **JavaScript and WebGL shader technology**, showcasing my adaptability and rapid learning of new technologies.
+
+Feel free to explore more of my work on [**GitHub**](https://github.com/LianruiBruce?tab=repositories).
+
+## 🌱 A Kind and Friendly Explorer
+
+At heart, I am a **kind and friendly** person, ready to dive into new challenges and learn rapidly. Be it tackling a complex coding problem or unraveling a novel mathematical concept, I embrace each challenge with an open mind and a spirit of collaboration.
+
+## 🚀 Looking Ahead
+
+With my graduation approaching, I am eager to embark on new journeys—whether that's through an **industry role** that will push my skills further or a **graduate project** that allows me to explore my areas of interest in depth. This website is a window into my professional and academic endeavors, showcasing my projects, skills, and aspirations.
+
+## 🤝 Let's Connect!
+
+If you'd like to learn more about my work, discuss potential collaborations, or consider me for opportunities that align with my skills and passions, please **reach out**. I'm always excited about the opportunities that lie ahead and look forward to connecting with others who share my enthusiasm for technology and exploration.
+
 
 <!-- **Markdown generator**
 
