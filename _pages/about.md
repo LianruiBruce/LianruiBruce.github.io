@@ -14,7 +14,7 @@ Currently, I'm an enthusiastic Computer Science undergraduate at the **Universit
 
 ## 🎓 Academic Journey
 
-My academic path reflects a strong dedication to both **computer science and mathematics**, backed by a GPA of **3.64/4**. For me, success isn't just about grades—it's about curiosity, exploration, and the passion put into learning. This approach drives me to seek practical, hands-on experiences.
+My academic path reflects a strong dedication to both **computer science and mathematics**, backed by a GPA of **3.53/4**. For me, success isn't just about grades—it's about curiosity, exploration, and the passion put into learning. This approach drives me to seek practical, hands-on experiences.
 
 ### 👨‍🏫 Teaching and Learning
 
