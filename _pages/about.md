@@ -23,7 +23,7 @@ With a strong foundation in full-stack development and algorithmic design, I am 
 * **University of Utah** (Salt Lake City, UT)
     * *Bachelor of Science in Computer Science, Minor in Mathematics*
     * *Graduated: Dec 2024*
-    * **GPA:** 3.6/4.0
+    * **GPA:** 3.7/4.0
     * **Honors:** Utah Global Scholarship (4 years), Dean's List (5 semesters).
     * **Achievement:** Awarded "Staff Choice" for the Top 1 Capstone Project (Dec 2024 Semester).
 
