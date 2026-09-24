@@ -52,8 +52,8 @@
 }
 .intro__identity span { margin-inline: var(--space-2xs); color: var(--color-rule); }
 .home-page .intro h1 {
-  max-width: 12ch;
-  font-size: var(--text-display);
+  max-width: 14ch;
+  font-size: clamp(3rem, 5.3vw, 4.8rem);
   font-weight: 700;
   line-height: 1.04;
   letter-spacing: -0.05em;
@@ -100,6 +100,16 @@
   object-fit: cover;
   border-radius: calc(var(--radius-card) - var(--space-2xs));
 }
+/* The legacy theme transitions headings, paragraphs and figures globally.
+   Keep those transitions from delaying GSAP's small positional moves. */
+.home-page .intro__identity,
+.home-page .intro h1,
+.home-page .intro__lede,
+.home-page .intro__availability,
+.home-page .intro__illustration,
+.home-page .section-heading,
+.home-page .cv-intro > p,
+.home-page .cv-intro h1 { transition: none; }
 
 .portfolio-section { margin-top: var(--space-3xl); scroll-margin-top: 6rem; }
 .section-heading {

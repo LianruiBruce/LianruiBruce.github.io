@@ -33,7 +33,7 @@ Custom editorial palette anchored to the site's established forest green and war
 - Desktop: compact newspaper-style masthead with centred wordmark and a separate single-line link row.
 - Mobile: native `details` menu with the same destinations.
 - Pointer clicks do not retain a focus box. Keyboard focus uses an outer green ring with a 5px offset; it never covers link text.
-- Motion uses a short GSAP entrance sequence for the homepage and subtle ScrollTrigger reveals for the homepage and CV. Only opacity and transforms animate; navigation and document layout remain still. `prefers-reduced-motion: reduce` disables these sequences, and content stays readable if GSAP does not load.
+- Motion uses short GSAP position-only entrance and scroll sequences. Text and the illustration stay fully visible during motion; native hash navigation remains available on the homepage and CV. `prefers-reduced-motion: reduce` disables these sequences.
 
 ## Per-page allowances
 
