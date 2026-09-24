@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-09-24",
+    "scope": "app",
+    "macrostructure": "Split Studio (home) / Long Document (CV)",
+    "theme": "custom",
+    "theme_axes": "light / upright-serif / forest-green",
+    "enrichment": "existing coding cartoon",
+    "brief": "Redesign the public portfolio and CV; fix navigation focus overlap."
+  }
+]

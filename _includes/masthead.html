@@ -1,23 +1,31 @@
 {% include base_path %}
-
-<div class="masthead">
+<header class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    <div class="site-masthead__top">
+      <span class="site-masthead__context">UNC Chapel Hill</span>
+      <a class="site-brand" href="{{ base_path }}/">{{ site.title }}</a>
+      <span class="site-masthead__context">Research · Engineering</span>
     </div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains '://' %}{% assign nav_href = link.url %}{% else %}{% assign nav_href = base_path | append: link.url %}{% endif %}
+        <a href="{{ nav_href }}"{% if page.url == '/cv/' and link.url == '/cv/' %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <details class="site-menu">
+      <summary>Menu</summary>
+      <nav class="site-menu__links" aria-label="Mobile navigation">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains '://' %}{% assign nav_href = link.url %}{% else %}{% assign nav_href = base_path | append: link.url %}{% endif %}
+          <a href="{{ nav_href }}"{% if page.url == '/cv/' and link.url == '/cv/' %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </details>
   </div>
-</div>
+</header>
+<script>
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('.site-menu__links a');
+    if (link) link.closest('details').open = false;
+  });
+</script>

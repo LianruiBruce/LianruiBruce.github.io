@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-24",
+  "framework": "Jekyll / AcademicPages",
+  "fonts": ["Iowan Old Style", "Avenir Next / system sans"],
+  "palette": "Forest green, warm paper, light green rules from existing home.css",
+  "motion": "CSS transitions only; no motion library",
+  "spacing": "Existing CSS varied; unified with 4-point named tokens",
+  "routes": ["/", "/cv/"],
+  "notes": "The legacy theme's inset orange a:focus outline overlapped masthead text."
+}
