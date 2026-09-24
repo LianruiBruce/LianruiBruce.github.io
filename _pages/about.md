@@ -1,102 +1,140 @@
 ---
+layout: home
 permalink: /
-title: "Biography"
-excerpt: "Lianrui (Bruce) Geng - MSCS Student at UNC Chapel Hill | Applied AI & LLM Engineer | Graduate Research Assistant @ ZDlab."
-author_profile: true
+title: "AI Research & Engineering"
+excerpt: "Graduate researcher at UNC Chapel Hill working on pluralistic alignment, LLM post-training, and multi-agent systems."
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-# Lianrui (Bruce) Geng
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="home-hero__copy">
+    <p class="home-eyebrow"><span class="home-status-dot" aria-hidden="true"></span> UNC Chapel Hill · ZDlab</p>
+    <h1 id="home-title">Building AI systems that <em>listen, reason, and adapt.</em></h1>
+    <p class="home-lede">I'm Lianrui (Bruce) Geng, a Computer Science master's student and Graduate Research Assistant at UNC Chapel Hill. My work connects <strong>pluralistic alignment</strong>, <strong>LLM post-training</strong>, and <strong>multi-agent systems</strong>.</p>
+    <div class="home-hero__actions">
+      <a class="home-button home-button--primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
+      <a class="home-button home-button--secondary" href="mailto:lianruig@unc.edu">Get in touch</a>
+    </div>
+    <p class="home-availability">Open to 2027 full-time roles in applied AI and LLM engineering.</p>
+  </div>
+  <figure class="home-portrait">
+    <div class="home-portrait__frame">
+      <img src="/images/LianruiGengNew.png" alt="Portrait of Lianrui Geng" width="750" height="1050" fetchpriority="high">
+    </div>
+    <figcaption>
+      <span>Lianrui Geng</span>
+      <span>Researcher · Engineer</span>
+    </figcaption>
+  </figure>
+</section>
 
-I am a graduate student pursuing a **Master of Science in Computer Science** at the **University of North Carolina at Chapel Hill (UNC)**, and a **Graduate Research Assistant at ZDlab** (advisor: Prof. Zhun Deng). My work sits at the intersection of **Large Language Models**, **Human–AI Collaboration**, and **multi-agent systems** — specifically, how to make LLMs more calibrated, honest, and useful when they collaborate with humans on high-stakes tasks.
+<div class="home-at-a-glance" aria-label="At a glance">
+  <div><span class="home-at-a-glance__label">Current role</span><strong>Graduate Research Assistant</strong><span>ZDlab · UNC Chapel Hill</span></div>
+  <div><span class="home-at-a-glance__label">Education</span><strong>M.S. Computer Science</strong><span>Expected May 2027</span></div>
+  <div><span class="home-at-a-glance__label">Research focus</span><strong>Alignment + agents</strong><span>From experiments to systems</span></div>
+</div>
 
-I came to LLMs from a strong full-stack and systems background. At Utah, I led a Top-1 capstone — an open-sourced legal-document analysis platform that has earned 80+ GitHub stars — and shipped projects in Unreal Engine 5, GPU ray tracing, and interactive C++/Qt teaching tools. I treat that foundation as a feature, not a bug: it means I can take a research idea and ship a usable product around it.
+<section id="research" class="home-section" aria-labelledby="research-title">
+  <div class="home-section__heading">
+    <div>
+      <p class="home-section__eyebrow">01 / Research</p>
+      <h2 id="research-title">Making models more useful for more people.</h2>
+    </div>
+    <p>I study how to spend limited feedback and compute where they matter most, then test whether those decisions improve trained models and real tasks.</p>
+  </div>
+  <div class="home-research-grid">
+    <article class="home-research-card">
+      <div class="home-research-card__top"><span class="home-research-card__number">01</span><span class="home-pill">LLM post-training</span></div>
+      <h3>W-CABLE</h3>
+      <p class="home-research-card__subtitle">Welfare-aware preference acquisition for pluralistic alignment</p>
+      <p>When preference labels are scarce, whose feedback should a model request? W-CABLE estimates each query's benefit and allocates attention across users using explicit welfare priorities.</p>
+      <ul>
+        <li>Evaluated on six Roleplay collections and four OpinionQA regional subsets.</li>
+        <li>Studied downstream Qwen3-4B, LoRA, and DPO training on four Roleplay collections.</li>
+      </ul>
+      <div class="home-tags"><span>Preference learning</span><span>DPO</span><span>Evaluation</span></div>
+    </article>
+    <article class="home-research-card">
+      <div class="home-research-card__top"><span class="home-research-card__number">02</span><span class="home-pill">Agent systems</span></div>
+      <h3>Multi-agent orchestration</h3>
+      <p class="home-research-card__subtitle">Budget-aware decisions for complex workflows</p>
+      <p>A Bayesian controller tracks uncertainty across dependent subtasks and decides when to execute, refine, verify, or stop. Two-step lookahead values evidence that can change the next decision.</p>
+      <ul>
+        <li>Uses offline calibration and online belief updates without an LLM planner at every step.</li>
+        <li>Evaluated in controlled simulations and on the 57-task AppWorld development split.</li>
+      </ul>
+      <div class="home-tags"><span>Multi-agent systems</span><span>Bayesian control</span><span>Verification</span></div>
+    </article>
+  </div>
+</section>
 
-> 🎯 **I'm actively looking for Summer 2026 internships in Applied AI / LLM engineering or ML research engineering.** CPT-authorized, US-relocatable. [Reach out](mailto:lianruig@unc.edu) if you're hiring.
+<section id="projects" class="home-section" aria-labelledby="projects-title">
+  <div class="home-section__heading">
+    <div>
+      <p class="home-section__eyebrow">02 / Selected work</p>
+      <h2 id="projects-title">Research ideas, built and tested.</h2>
+    </div>
+    <p>My background spans generative vision, evaluation, and full-stack engineering. I like turning an idea into a system people can actually use.</p>
+  </div>
+  <div class="home-project-grid">
+    <article class="home-project-card">
+      <span class="home-project-card__mark" aria-hidden="true">IG</span>
+      <p class="home-project-card__type">Generative vision · Ongoing</p>
+      <h3>Identity-preserving generation</h3>
+      <p>Investigating how facial geometry, local appearance, and background edits affect identity consistency. A controlled pilot compares five generation workflows across 50 images.</p>
+      <span class="home-project-card__tools">ArcFace · human evaluation · image editing</span>
+    </article>
+    <article class="home-project-card">
+      <span class="home-project-card__mark" aria-hidden="true">FM</span>
+      <p class="home-project-card__type">Generative modeling · 2025</p>
+      <h3>Latent flow matching for inpainting</h3>
+      <p>Extended latent flow matching to conditional image restoration with a frozen VAE, mask-conditioned velocity field, attention U-Net, and ODE sampling.</p>
+      <span class="home-project-card__tools">PyTorch · Flow Matching · CelebA-HQ</span>
+    </article>
+    <article class="home-project-card">
+      <span class="home-project-card__mark" aria-hidden="true">W</span>
+      <p class="home-project-card__type">Full-stack AI · 2024</p>
+      <h3>Wrap: legal document analysis</h3>
+      <p>Led the capstone team building a Chrome extension and web app for legal-document summaries and risk reports. The project received Top Capstone and Staff Choice awards.</p>
+      <a class="home-text-link" href="https://github.com/LianruiBruce/wrap">View project on GitHub <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+</section>
 
-## 🎓 Education
+<section id="background" class="home-section home-background" aria-labelledby="background-title">
+  <div class="home-section__heading">
+    <div>
+      <p class="home-section__eyebrow">03 / Background</p>
+      <h2 id="background-title">Research depth. Engineering range.</h2>
+    </div>
+  </div>
+  <div class="home-background__grid">
+    <div class="home-background__education">
+      <h3>Education</h3>
+      <div class="home-timeline-item"><span>2025 — 2027</span><strong>University of North Carolina at Chapel Hill</strong><p>M.S. in Computer Science · GPA 4.0/4.0<br>Graduate Research Assistant, ZDlab</p></div>
+      <div class="home-timeline-item"><span>2021 — 2024</span><strong>University of Utah</strong><p>B.S. in Computer Science, minor in Mathematics<br>Dean's List (5 semesters)</p></div>
+    </div>
+    <div class="home-background__skills">
+      <h3>Tools I work with</h3>
+      <p>Research is strongest when experiments are reproducible and the system around them works reliably.</p>
+      <div class="home-skill-list"><span>Python</span><span>PyTorch</span><span>Hugging Face</span><span>LoRA / DPO</span><span>Linux</span><span>Git</span><span>Docker</span><span>React</span><span>Flask</span><span>AWS</span></div>
+      <a class="home-text-link" href="/cv/">Read the full CV <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
 
-* **University of North Carolina at Chapel Hill** (Chapel Hill, NC)
-    * *Master of Science in Computer Science* — **GPA 4.0**
-    * *Aug 2025 – May 2027 (expected)*
-    * Graduate Research Assistant, ZDlab — advisor Prof. Zhun Deng
-    * Research focus: Human–AI Collaboration, multi-agent LLM systems, prompt optimization
-
-* **University of Utah** (Salt Lake City, UT)
-    * *Bachelor of Science in Computer Science, Minor in Mathematics*
-    * *Graduated: Dec 2024* — **GPA 3.6/4.0**
-    * **Honors:** Utah Global Scholarship (4 academic years, $6,000), Dean's List (5 semesters)
-    * **Achievement:** "Staff Choice" Award + Top-1 Capstone Project, Fall 2024
-
-## 🔬 Research Experience
-
-**Graduate Research Assistant** | *ZDlab, UNC–Chapel Hill* &nbsp; *Nov 2025 – Present*
-
-Building two end-to-end LLM research pipelines from scratch — covering data, training, evaluation, and multi-GPU infrastructure.
-
-* **CollectiveLLM — LLM survey simulation & DST-guided interviewer fine-tuning**
-    * Built a multi-turn "interviewer ↔ simulated respondent" rollout system with batched generation, Monte-Carlo question search, and shared-engine **vLLM inference across 8 GPUs**.
-    * Trained a question-aware **Dialogue State Tracking (DST)** model (DistilBERT backbone with question-conditioned head) to recover respondent stances; used DST scores both to filter SFT data and to construct preference pairs for DPO.
-    * Implemented the full interviewer fine-tuning loop with **HuggingFace + PEFT/LoRA SFT and TRL-based DPO**, then regenerated higher-quality rollouts to form a self-improvement cycle.
-    * Reproduced the pipeline on **4 survey datasets** (CES, WVS, Polish Participatory Budgeting, OpinionQA).
-
-* **HAC — Human–AI Collaboration framework for medical MCQA**
-    * Designed a **selective-prediction pipeline** that lets an LLM answer when confident and defer to a (simulated) human otherwise, optimizing the custom HAC loss `L(τ) = (1 − sel_acc) · coverage + λ · human_rate` via threshold search.
-    * Implemented a unified confidence-extraction stack — Maximum Softmax Probability, margin, negative entropy, verbalized self-evaluation, and explicit "defer" prompts — benchmarked with **ECE, AUROC, and risk-coverage curves**.
-    * Ran systematic ablations across **12 prompt templates** and 3 framework variants on **Qwen2.5-7B, Llama-3-8B, and BioMistral-7B** over MedMCQA, MedQA, and PubMedQA.
-    * Built the multi-GPU evaluation infrastructure (torchrun DDP, model-agnostic local-HF / vLLM / OpenAI wrappers, reusable plotting scripts).
-
-## 💼 Professional Experience
-
-**Game Development Engineer Intern** | *Aureum Gale Game* (Los Angeles, CA)
-*May 2024 – Aug 2024*
-* Developed a fully functional 3D game prototype using **Unreal Engine 5**, used for critical team presentations.
-* Integrated 20+ unique game assets, enhancing user engagement and playability through close collaboration with the design team.
-* Managed version control via **Git**, achieving a **30% reduction** in code conflicts and streamlining the team workflow.
-
-**Remote Web Developer** | *Heilongjiang Guanjie Biotechnology Co., Ltd* (Harbin, China)
-*Apr 2024 – Aug 2024*
-* Designed and maintained 3 responsive websites with HTML/CSS and JavaScript, lifting user retention by **30%**.
-* Boosted application performance by **40%** via interactive dashboards and mobile support optimization.
-* Coordinated weekly sprint cycles remotely, improving development efficiency by **25%**.
-
-**Computer Service Support Administrator** | *Jilin Baiqi Pharmaceutical Co., Ltd* (Jilin, China)
-*May 2023 – Aug 2023*
-* Reduced system downtime by **25%** through proactive hardware/software maintenance.
-* Upgraded critical network infrastructure, increasing communication reliability by **30%**.
-
-## 💻 Selected Projects
-
-**Wrap — Intelligent Legal Document Assistant** *(Capstone, Top-1 Fall 2024)*
-*Full-Stack Engineer & Project Lead · React, Node.js, MongoDB, AWS, Python/PyTorch, Chrome Extension*
-*Aug 2024 – Dec 2025 · [wrapcapstone.com](https://wrapcapstone.com/) · [github.com/LianruiBruce/wrap](https://github.com/LianruiBruce/wrap) — 80+ ⭐ / 9 forks / 192 commits / 4 contributors*
-
-* **Top-1 Capstone + Staff Choice Award.** Led design and full-stack development of a legal-document summarization platform deployed on **AWS** with **NGINX**-secured communication.
-* Built a Chrome extension that auto-detects Terms / Privacy Policies / Contract Agreements on the page and pipes them through a **Python/PyTorch + Flask NLP backend (CUDA-accelerated)** plus the **Claude API** for summarization and report generation — lifting document-processing efficiency by **40%**.
-* Connected extension and web app via JWT auth so users can upload documents, generate PDF reports, and access historical and current summaries from a single account.
-* Open-sourced under MIT; production deployment served real users at [wrapcapstone.com](https://wrapcapstone.com/).
-
-**High-Performance Ray Tracing with DDA Algorithm**
-*Computer Graphics Engineer · C++, OpenGL, GPU Programming · Apr 2024 – May 2024*
-* Implemented the Digital Differential Analyzer (DDA) line algorithm on the GPU, bypassing CPU floating-point operations.
-* Achieved a **50% reduction** in ray-tracing computation time.
-* Simulated complex visual effects, including dynamic objects and mirror rendering, resolving oversampling issues to ensure visual fidelity.
-
-**Machine Learning Educational Application**
-*Software Engineer · C++, Qt, Box2D · Nov 2023 – Dec 2023*
-* Architected an MVC-based educational tool to demonstrate Linear Regression concepts.
-* Integrated **Box2D** for physics simulations and polynomial curve generation, visualizing mathematical principles through interactive gameplay.
-
-## 🛠 Technical Proficiency
-
-* **Languages:** Python, C/C++, C#, Java, JavaScript, TypeScript, SQL, MATLAB, HTML/CSS
-* **AI / ML:** PyTorch, HuggingFace Transformers, PEFT / LoRA, TRL (SFT, DPO), vLLM, torchrun DDP, scikit-learn, prompt engineering, evaluation (ECE, AUROC, risk-coverage curves)
-* **Backend / Web:** Node.js, Express.js, Django, Flask, React, Material-UI, Axios, Mongoose, REST APIs, Socket.IO
-* **Data / Infra:** MongoDB, MySQL, Docker, AWS, NGINX, Git, multi-GPU Linux clusters (CUDA)
-* **Specializations:** LLM training and evaluation, Human–AI Collaboration, full-stack delivery, computer graphics, Unreal Engine 5 (Blueprints)
-
----
-
-*Feel free to connect via [LinkedIn](https://linkedin.com/in/lianrui-geng-01533a294) or explore my work on [GitHub](https://github.com/LianruiBruce).*
+<section id="contact" class="home-contact" aria-labelledby="contact-title">
+  <div>
+    <p class="home-section__eyebrow">04 / Contact</p>
+    <h2 id="contact-title">Let's build useful AI systems.</h2>
+    <p>I'm interested in applied AI, LLM post-training, and agent systems roles starting in 2027. I'd be glad to talk about research or engineering opportunities.</p>
+  </div>
+  <div class="home-contact__links">
+    <a href="mailto:lianruig@unc.edu">lianruig@unc.edu <span aria-hidden="true">↗</span></a>
+    <a href="https://github.com/LianruiBruce">GitHub <span aria-hidden="true">↗</span></a>
+    <a href="https://www.linkedin.com/in/lianrui-geng-01533a294/">LinkedIn <span aria-hidden="true">↗</span></a>
+  </div>
+</section>

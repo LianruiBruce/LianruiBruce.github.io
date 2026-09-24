@@ -11,9 +11,10 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.layout == "home" %} class="home-page"{% endif %}>
 
     {% include browser-upgrade.html %}
+    {% if page.layout == "home" %}<a class="home-skip-link" href="#main-content">Skip to content</a>{% endif %}
     {% include masthead.html %}
 
     {{ content }}

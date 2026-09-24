@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lianrui's page"
+title                    : "Lianrui Geng"
 title_separator          : "-"
 name                     : &name "Lianrui Geng"
-description              : &description "personal description"
-url                      : https://LianruiBruce.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Graduate researcher at UNC Chapel Hill working on pluralistic alignment, LLM post-training, and multi-agent systems."
+url                      : https://lianruibruce.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://lianruibruce.github.io/"
+repository               : "LianruiBruce/LianruiBruce.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -66,14 +66,16 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Lianrui Geng
+  links:
+    - https://github.com/LianruiBruce
+    - https://www.linkedin.com/in/lianrui-geng-01533a294/
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # no tracking ID is configured
   google:
     tracking_id          :
 
@@ -82,12 +84,12 @@ analytics:
 author:
   name             : "Lianrui Geng"
   avatar           : "LianruiGengNew.png"
-  bio              : "Computer Science Master Student in UNC"
+  bio              : "UNC Chapel Hill M.S. student and ZDlab research assistant working on LLM alignment and agent systems."
   location         : "Carrboro, NC"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : lorrybruce007@gmail.com
+  email            : lianruig@unc.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
