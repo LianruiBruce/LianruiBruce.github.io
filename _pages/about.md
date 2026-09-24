@@ -22,7 +22,7 @@ redirect_from:
   </div>
   <figure class="home-portrait">
     <div class="home-portrait__frame">
-      <img src="/images/LianruiGengNew.png" alt="Portrait of Lianrui Geng" width="750" height="1050" fetchpriority="high">
+      <img src="/images/lianrui-coding-anime.webp" alt="Anime-style illustration of Lianrui Geng coding at a laptop" width="900" height="1125" fetchpriority="high">
     </div>
     <figcaption>
       <span>Lianrui Geng</span>
