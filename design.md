@@ -33,7 +33,7 @@ Custom editorial palette anchored to the site's established forest green and war
 - Desktop: compact newspaper-style masthead with centred wordmark and a separate single-line link row.
 - Mobile: native `details` menu with the same destinations.
 - Pointer clicks do not retain a focus box. Keyboard focus uses an outer green ring with a 5px offset; it never covers link text.
-- Motion is limited to link colour changes. Reduced-motion users get shorter transitions.
+- Motion uses a short GSAP entrance sequence for the homepage and subtle ScrollTrigger reveals for the homepage and CV. Only opacity and transforms animate; navigation and document layout remain still. `prefers-reduced-motion: reduce` disables these sequences, and content stays readable if GSAP does not load.
 
 ## Per-page allowances
 
@@ -43,7 +43,7 @@ Custom editorial palette anchored to the site's established forest green and war
 
 ## Exports
 
-The Jekyll entry point loads `assets/css/tokens.css` before `site.css` and `home.css`. The token file is the drop-in CSS export. Equivalent mappings for future migrations:
+The Jekyll entry point loads `assets/css/tokens.css` before `site.css` and `home.css`. Homepage and CV motion use local GSAP 3.15.0 files in `assets/js/vendor/`, followed by `assets/js/portfolio-motion.js`. The token file is the drop-in CSS export. Equivalent mappings for future migrations:
 
 ```css
 @theme {

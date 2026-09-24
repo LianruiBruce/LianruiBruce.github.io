@@ -1,4 +1,10 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.layout == "home" %}
+<script defer src="{{ base_path }}/assets/js/vendor/gsap.min.js"></script>
+<script defer src="{{ base_path }}/assets/js/vendor/ScrollTrigger.min.js"></script>
+<script defer src="{{ base_path }}/assets/js/portfolio-motion.js"></script>
+{% endif %}
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
