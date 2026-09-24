@@ -43,7 +43,7 @@ Custom editorial palette anchored to the site's established forest green and war
 
 ## Exports
 
-The Jekyll entry point loads `assets/css/tokens.css` before `site.css` and `home.css`. Homepage and CV motion use local GSAP 3.15.0 files in `assets/js/vendor/`, followed by `assets/js/portfolio-motion.js`. The token file is the drop-in CSS export. Equivalent mappings for future migrations:
+The Jekyll entry point loads `assets/css/tokens.css` before `site.css` and `home.css`. Homepage and CV motion use local GSAP 3.15.0 files in `assets/js/`, followed by `assets/js/portfolio-motion.js`. The token file is the drop-in CSS export. Equivalent mappings for future migrations:
 
 ```css
 @theme {
