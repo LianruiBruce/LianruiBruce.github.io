@@ -14,7 +14,7 @@ redirect_from:
     <div class="intro__copy">
       <p class="intro__identity">Lianrui (Bruce) Geng <span aria-hidden="true">/</span> UNC Chapel Hill</p>
       <h1 id="home-title">AI systems for <span>more than one voice.</span></h1>
-      <p class="intro__lede">I am a Computer Science master's student and Graduate Research Assistant at ZDlab. I work across pluralistic alignment, LLM post-training, and multi-agent systems, with an eye on whether research choices survive real training and deployment constraints.</p>
+      <p class="intro__lede">Computer Science master's student and Graduate Research Assistant at ZDlab, UNC Chapel Hill. Research interests include pluralistic alignment, LLM post-training, and multi-agent systems.</p>
       <div class="intro__actions">
         <a href="#research">Explore research <span aria-hidden="true">↗</span></a>
         <a href="/cv/">Read my CV <span aria-hidden="true">↗</span></a>
@@ -29,25 +29,18 @@ redirect_from:
   <section id="research" class="portfolio-section" aria-labelledby="research-title">
     <header class="section-heading">
       <h2 id="research-title">Research</h2>
-      <p>I study how to allocate limited feedback and computation, then measure what those decisions change downstream.</p>
     </header>
-    <div class="research-list">
-      <article class="research-piece">
-        <div class="research-piece__lead">
+    <div class="project-list">
+      <article class="project-entry" id="wapa">
+        <div class="project-entry__body">
           <h3>WAPA</h3>
+          <p>Welfare-aware preference acquisition for pluralistic alignment, allocating limited feedback across users with different preferences.</p>
         </div>
       </article>
-      <article class="research-piece research-piece--reverse">
-        <div class="research-piece__lead">
-          <p class="research-piece__category">Agent systems · 2026–present</p>
-          <h3>Multi-agent orchestration</h3>
-          <p class="research-piece__subtitle">Budget-aware decisions for complex workflows</p>
-          <p class="research-piece__role">Co-first-author research manuscript</p>
-        </div>
-        <div class="research-piece__detail">
-          <p>A Bayesian controller tracks uncertainty across dependent subtasks and chooses when to execute, refine, verify, or stop. Two-step lookahead values evidence that can change the next action.</p>
-          <p>We evaluated the approach in controlled simulations and on the 57-task AppWorld development split.</p>
-          <p class="research-piece__evidence">In the five-node simulation at budget 7.5, task success reached 26.0%, compared with 18.5% for the strongest baseline.</p>
+      <article class="project-entry" id="brigade">
+        <div class="project-entry__body">
+          <h3>BRIGADE</h3>
+          <p>Bayesian runtime control for multi-agent workflows, deciding when to execute, refine, verify, or stop under a limited compute budget.</p>
         </div>
       </article>
     </div>
@@ -56,23 +49,27 @@ redirect_from:
   <section id="projects" class="portfolio-section" aria-labelledby="projects-title">
     <header class="section-heading">
       <h2 id="projects-title">Selected projects</h2>
-      <p>From controlled vision experiments to software that makes complicated documents easier to use.</p>
     </header>
     <div class="project-list">
-      <article class="project-line">
-        <div><h3>Identity-preserving generation</h3><span>Generative vision · Ongoing</span></div>
-        <p>Studying how facial geometry, appearance, and background edits affect identity consistency. A pilot compares five generation workflows across 50 images.</p>
-        <small>ArcFace · human evaluation</small>
+      <article class="project-entry" id="identity-generation">
+        <div class="project-entry__body">
+          <h3>Identity-preserving generation</h3>
+          <p>A controlled study of how facial geometry, appearance, and background edits affect identity preservation in generated images.</p>
+        </div>
       </article>
-      <article class="project-line">
-        <div><h3>Latent flow matching for inpainting</h3><span>Generative modeling · 2025</span></div>
-        <p>Extended latent flow matching to conditional image restoration using a frozen VAE, mask-conditioned velocity field, attention U-Net, and ODE sampling.</p>
-        <small>PyTorch · CelebA-HQ</small>
+      <article class="project-entry" id="latent-flow-matching">
+        <div class="project-entry__body">
+          <h3>Latent flow matching for inpainting</h3>
+          <p>Conditional image restoration with latent flow matching, combining a frozen VAE, a mask-conditioned velocity field, and ODE sampling.</p>
+        </div>
       </article>
-      <article class="project-line">
-        <div><h3>Wrap: legal document analysis</h3><span>Full-stack AI · 2024</span></div>
-        <p>Led full-stack development of a Chrome extension and web app for legal-document summaries and risk reports. Received Top Capstone Project and Staff Choice awards. <a href="https://github.com/LianruiBruce/wrap">View project ↗</a></p>
-        <small>React · Flask · NLP</small>
+      <article class="project-entry" id="wrap">
+        <img class="project-entry__image" src="/images/wrap-mainpage.png" alt="Wrap web app showing document summaries and a risk report" width="1716" height="1092" loading="lazy">
+        <div class="project-entry__body">
+          <h3>Wrap: legal document analysis</h3>
+          <p>A Chrome extension and web app that summarize legal documents and surface potential risks using NLP.</p>
+          <div class="project-entry__links"><a href="https://github.com/LianruiBruce/wrap">Code <span aria-hidden="true">↗</span></a></div>
+        </div>
       </article>
     </div>
   </section>
