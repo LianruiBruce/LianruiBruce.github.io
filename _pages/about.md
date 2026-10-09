@@ -34,15 +34,7 @@ redirect_from:
     <div class="research-list">
       <article class="research-piece">
         <div class="research-piece__lead">
-          <p class="research-piece__category">Pluralistic alignment · 2026–present</p>
-          <h3>W-CABLE</h3>
-          <p class="research-piece__subtitle">Welfare-aware preference acquisition</p>
-          <p class="research-piece__role">Co-first-author research manuscript · ZDlab</p>
-        </div>
-        <div class="research-piece__detail">
-          <p>When preference labels are scarce, whose feedback should a model request? W-CABLE estimates the benefit of each query while accounting for differences in user welfare.</p>
-          <p>My experiments span six Roleplay collections and four OpinionQA regional subsets. I also evaluated 28 Qwen3-4B + LoRA + DPO training runs on four Roleplay collections.</p>
-          <p class="research-piece__evidence">At a 20% query budget, mean acquisition utility improved by 2.86–3.24 percentage points over the strongest matched baseline across the main welfare settings.</p>
+          <h3>WAPA</h3>
         </div>
       </article>
       <article class="research-piece research-piece--reverse">
