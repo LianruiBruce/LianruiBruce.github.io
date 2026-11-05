@@ -20,6 +20,7 @@ redirect_from:
   <a href="mailto:lianruig@unc.edu">Email</a>
   <a href="/cv/">CV</a>
   <a href="https://github.com/LianruiBruce">GitHub</a>
+  <a href="https://www.linkedin.com/in/lianrui-geng-01533a294/">LinkedIn</a>
 </nav>
 
 <section class="papers" aria-labelledby="papers-title">
@@ -30,10 +31,80 @@ redirect_from:
       <p class="paper-venue">NeurIPS 2026 Workshop on Foundations of LLM Post-Training in Changing Environments</p>
     </li>
     <li>
-      <p class="paper-title">BRIGADE: Bayesian Runtime Control for Multi-Agent Workflows</p>
+      <p class="paper-title">BRIGADE: Bayesian Runtime Inference Guiding Agentic DAG Execution</p>
       <p class="paper-venue">Preprint, 2026. Co-first author.</p>
     </li>
   </ul>
 </section>
 
+<section class="work" aria-labelledby="work-title">
+  <h2 id="work-title">Projects</h2>
+
+  <article class="work-item">
+    <figure class="work-media">
+      <video class="work-video" src="/images/work/humanoid-jump-shot.mp4" poster="/images/work/humanoid-jump-shot.jpg" width="960" height="540" autoplay muted loop playsinline preload="metadata" aria-label="A simulated Unitree G1 humanoid takes jump shots at a basketball hoop"></video>
+    </figure>
+    <p class="work-title"><a href="https://github.com/LianruiBruce/humanoid-basketball">Humanoid basketball</a></p>
+    <p class="work-note">A simulated Unitree G1 learns a whole-body jump shot by imitating human motion capture with reinforcement learning. It makes 62% from the free-throw line.</p>
+  </article>
+
+  <article class="work-item">
+    <figure class="work-media work-chart">
+      <svg viewBox="0 0 480 200" role="img" aria-labelledby="chart-desc">
+        <desc id="chart-desc">Searches per question at five search prices. The untrained agent stays near 1.2 searches at every price. The trained agent searches 2.5 times when searching is free and stops searching once the price reaches 0.2.</desc>
+        <g class="grid">
+          <line x1="36" x2="460" y1="20" y2="20"/>
+          <line x1="36" x2="460" y1="70" y2="70"/>
+          <line x1="36" x2="460" y1="120" y2="120"/>
+          <line class="axis" x1="36" x2="460" y1="170" y2="170"/>
+        </g>
+        <g class="ticks">
+          <text x="24" y="25" text-anchor="end">3</text>
+          <text x="24" y="75" text-anchor="end">2</text>
+          <text x="24" y="125" text-anchor="end">1</text>
+          <text x="24" y="175" text-anchor="end">0</text>
+          <text x="36" y="193" text-anchor="middle">0</text>
+          <text x="106.7" y="193" text-anchor="middle">.05</text>
+          <text x="177.3" y="193" text-anchor="middle">.1</text>
+          <text x="318.7" y="193" text-anchor="middle">.2</text>
+          <text x="460" y="193" text-anchor="middle">.3</text>
+        </g>
+        <polyline class="line-base" points="36,110.5 106.7,105.5 177.3,107 318.7,107.5 460,107.5"/>
+        <polyline class="line-main" points="36,43 106.7,91 177.3,114 318.7,170 460,170"/>
+        <g class="dots-base">
+          <circle cx="36" cy="110.5" r="3"/><circle cx="106.7" cy="105.5" r="3"/><circle cx="177.3" cy="107" r="3"/><circle cx="318.7" cy="107.5" r="3"/><circle cx="460" cy="107.5" r="3"/>
+        </g>
+        <g class="dots-main">
+          <circle cx="36" cy="43" r="3.5"/><circle cx="106.7" cy="91" r="3.5"/><circle cx="177.3" cy="114" r="3.5"/><circle cx="318.7" cy="170" r="3.5"/><circle cx="460" cy="170" r="3.5"/>
+        </g>
+        <text class="label-main" x="50" y="40">trained</text>
+        <text class="label-base" x="460" y="95" text-anchor="end">untrained</text>
+      </svg>
+      <figcaption>Searches per question as the price of one search rises.</figcaption>
+    </figure>
+    <p class="work-title"><a href="https://github.com/LianruiBruce/budget-aware-search-agent">Budget-aware search agent</a></p>
+    <p class="work-note">A 1.7B model is told what each search costs. After training, it searches more when searching is cheap and answers from memory when it is not.</p>
+  </article>
+</section>
+
 <p class="coda">Lately, thinking about machines that have to act in the physical&nbsp;world.</p>
+
+<script>
+  (function () {
+    var video = document.querySelector('.work-video');
+    if (!video) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      video.removeAttribute('autoplay');
+      video.pause();
+      video.controls = true;
+      return;
+    }
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) { video.play().catch(function () {}); } else { video.pause(); }
+        });
+      }, { threshold: 0.25 }).observe(video);
+    }
+  })();
+</script>

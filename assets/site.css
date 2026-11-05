@@ -107,6 +107,7 @@ a:focus-visible {
 .papers { margin-top: 5.5rem; }
 
 .papers h2,
+.work h2,
 .cv-block h2 {
   margin: 0 0 1.25rem;
   font-size: 1.125rem;
@@ -140,6 +141,55 @@ a:focus-visible {
   color: var(--faint);
   font-style: italic;
   font-size: 1rem;
+}
+
+/* Projects */
+.work { margin-top: 5.5rem; }
+
+.work-item + .work-item { margin-top: 3.5rem; }
+
+.work-media { margin: 0 0 1rem; }
+
+.work-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 3px;
+  background: #f0f0f0;
+}
+
+.work-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--serif);
+}
+
+.work-chart .grid line { stroke: var(--rule); stroke-width: 1; }
+.work-chart .grid .axis { stroke: var(--faint); }
+.work-chart .ticks text { fill: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.work-chart polyline { fill: none; stroke-width: 1.75; stroke-linejoin: round; stroke-linecap: round; }
+.work-chart .line-main { stroke: var(--ink); }
+.work-chart .line-base { stroke: var(--faint); stroke-dasharray: 4 4; }
+.work-chart .dots-main circle { fill: var(--ink); }
+.work-chart .dots-base circle { fill: var(--paper); stroke: var(--faint); stroke-width: 1.5; }
+.work-chart .label-main { fill: var(--ink); font-size: 15px; font-style: italic; }
+.work-chart .label-base { fill: var(--muted); font-size: 15px; font-style: italic; }
+
+.work-media figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  font-style: italic;
+}
+
+.work-note {
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 1.0625rem;
+  text-wrap: pretty;
 }
 
 /* CV */
@@ -195,7 +245,8 @@ a:focus-visible {
   main > .thesis { animation-delay: 120ms; }
   main > .bio,
   main > .links { animation-delay: 380ms; }
-  main > .papers { animation-delay: 560ms; }
+  main > .papers,
+  main > .work { animation-delay: 560ms; }
   main > .coda { animation-delay: 1400ms; animation-duration: 1600ms; }
   .cv main > * { animation: none; }
 }
@@ -215,6 +266,10 @@ a:focus-visible {
     flex-direction: column;
     gap: 0;
   }
-  .papers { margin-top: 4rem; }
+  .papers,
+  .work { margin-top: 4rem; }
+  .work-chart .ticks text { font-size: 19px; }
+  .work-chart .label-main,
+  .work-chart .label-base { font-size: 20px; }
   .coda { margin-top: 5rem; }
 }
