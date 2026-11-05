@@ -1,0 +1,117 @@
+---
+layout: default
+body_class: home
+redirect_from:
+  - /about/
+  - /about.html
+---
+<div class="home-grid">
+  <aside class="profile">
+    <img class="avatar" src="/images/avatar.jpg" alt="Lianrui Geng" width="480" height="480">
+    <h1 class="profile-name">Lianrui Geng</h1>
+    <p class="profile-tag">M.S. student in Computer Science</p>
+    <ul class="profile-links">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.6-6-10.5a6 6 0 0 1 12 0C18 15.4 12 21 12 21z"/><circle cx="12" cy="10.5" r="2"/></svg><span>Chapel Hill, NC</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5 12 5l9 4.5-9 4.5z M7 11.5V16c1.5 1.3 3.2 2 5 2s3.5-.7 5-2v-4.5"/></svg><span>UNC Chapel Hill</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z M3 6l9 7 9-7"/></svg><a href="mailto:lianruig@unc.edu">Email</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z M14 3v4h4 M9 12h6 M9 16h6"/></svg><a href="/cv/">CV</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.6-.2.6-.5v-1.7c-2.6.6-3.2-1.2-3.2-1.2-.4-1.1-1-1.4-1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .8 1.5 2.2 1 2.8.8.1-.6.3-1 .6-1.3-2.1-.2-4.3-1-4.3-4.6 0-1 .4-1.9 1-2.6-.1-.2-.4-1.2.1-2.5 0 0 .8-.3 2.6 1a9 9 0 0 1 4.8 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.3.1 2.5.6.7 1 1.6 1 2.6 0 3.6-2.2 4.4-4.3 4.6.3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5z"/></svg><a href="https://github.com/LianruiBruce">GitHub</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M4 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM2.3 9h3.4v11.5H2.3zM8.5 9h3.3v1.6c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.4v6.4h-3.4v-5.7c0-1.4 0-3.1-1.9-3.1s-2.2 1.5-2.2 3v5.8H8.5z"/></svg><a href="https://www.linkedin.com/in/lianrui-geng-01533a294/">LinkedIn</a></li>
+    </ul>
+  </aside>
+
+  <div class="content">
+    <section aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <p>I am a Computer Science master's student at UNC Chapel Hill. I received my B.S. in Computer Science, with a minor in Mathematics, from the University of Utah.</p>
+    </section>
+
+    <section aria-labelledby="interests-title">
+      <h2 id="interests-title">Research interests</h2>
+      <ul class="interests">
+        <li>Pluralistic alignment and preference elicitation</li>
+        <li>LLM post-training</li>
+        <li>Multi-agent systems</li>
+        <li>Embodied AI</li>
+      </ul>
+    </section>
+
+    <section id="publications" aria-labelledby="pub-title">
+      <h2 id="pub-title">Publications</h2>
+      <ul class="pubs">
+        <li>Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment</li>
+        <li>BRIGADE: Bayesian Runtime Inference Guiding Agentic DAG Execution</li>
+      </ul>
+    </section>
+
+    <section class="work" id="projects" aria-labelledby="work-title">
+  <h2 id="work-title">Projects</h2>
+
+  <article class="work-item">
+    <figure class="work-media">
+      <video class="work-video" src="/images/work/humanoid-jump-shot.mp4" poster="/images/work/humanoid-jump-shot.jpg" width="960" height="540" autoplay muted loop playsinline preload="metadata" aria-label="A simulated Unitree G1 humanoid takes jump shots at a basketball hoop"></video>
+    </figure>
+    <p class="work-title"><a href="https://github.com/LianruiBruce/humanoid-basketball">Humanoid basketball</a></p>
+    <p class="work-note">A simulated Unitree G1 learns a whole-body jump shot by imitating human motion capture with reinforcement learning. It makes 62% from the free-throw line.</p>
+  </article>
+
+  <article class="work-item">
+    <figure class="work-media work-chart">
+      <svg viewBox="0 0 480 200" role="img" aria-labelledby="chart-desc">
+        <desc id="chart-desc">Searches per question at five search prices. The untrained agent stays near 1.2 searches at every price. The trained agent searches 2.5 times when searching is free and stops searching once the price reaches 0.2.</desc>
+        <g class="grid">
+          <line x1="36" x2="460" y1="20" y2="20"/>
+          <line x1="36" x2="460" y1="70" y2="70"/>
+          <line x1="36" x2="460" y1="120" y2="120"/>
+          <line class="axis" x1="36" x2="460" y1="170" y2="170"/>
+        </g>
+        <g class="ticks">
+          <text x="24" y="25" text-anchor="end">3</text>
+          <text x="24" y="75" text-anchor="end">2</text>
+          <text x="24" y="125" text-anchor="end">1</text>
+          <text x="24" y="175" text-anchor="end">0</text>
+          <text x="36" y="193" text-anchor="middle">0</text>
+          <text x="106.7" y="193" text-anchor="middle">.05</text>
+          <text x="177.3" y="193" text-anchor="middle">.1</text>
+          <text x="318.7" y="193" text-anchor="middle">.2</text>
+          <text x="460" y="193" text-anchor="middle">.3</text>
+        </g>
+        <polyline class="line-base" points="36,110.5 106.7,105.5 177.3,107 318.7,107.5 460,107.5"/>
+        <polyline class="line-main" points="36,43 106.7,91 177.3,114 318.7,170 460,170"/>
+        <g class="dots-base">
+          <circle cx="36" cy="110.5" r="3"/><circle cx="106.7" cy="105.5" r="3"/><circle cx="177.3" cy="107" r="3"/><circle cx="318.7" cy="107.5" r="3"/><circle cx="460" cy="107.5" r="3"/>
+        </g>
+        <g class="dots-main">
+          <circle cx="36" cy="43" r="3.5"/><circle cx="106.7" cy="91" r="3.5"/><circle cx="177.3" cy="114" r="3.5"/><circle cx="318.7" cy="170" r="3.5"/><circle cx="460" cy="170" r="3.5"/>
+        </g>
+        <text class="label-main" x="50" y="40">trained</text>
+        <text class="label-base" x="460" y="95" text-anchor="end">untrained</text>
+      </svg>
+      <figcaption>Searches per question as the price of one search rises.</figcaption>
+    </figure>
+    <p class="work-title"><a href="https://github.com/LianruiBruce/budget-aware-search-agent">Budget-aware search agent</a></p>
+    <p class="work-note">A 1.7B model is told what each search costs. After training, it searches more when searching is cheap and answers from memory when it is not.</p>
+  </article>
+</section>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var video = document.querySelector('.work-video');
+    if (!video) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      video.removeAttribute('autoplay');
+      video.pause();
+      video.controls = true;
+      return;
+    }
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) { video.play().catch(function () {}); } else { video.pause(); }
+        });
+      }, { threshold: 0.25 }).observe(video);
+    }
+  })();
+</script>

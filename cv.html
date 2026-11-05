@@ -1,0 +1,85 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+body_class: cv
+description: Curriculum vitae of Lianrui Geng.
+redirect_from:
+  - /resume
+  - /resume/
+---
+<header>
+  <h1 class="cv-title">Curriculum vitae</h1>
+  <p class="cv-updated">Updated November 2026</p>
+</header>
+
+<section class="cv-block" aria-labelledby="cv-education">
+  <h2 id="cv-education">Education</h2>
+  <div class="entry">
+    <p class="entry-head"><span>University of North Carolina at Chapel Hill</span><span class="when">2025–2027</span></p>
+    <p>M.S. in Computer Science (expected May 2027). GPA 4.0/4.0.<br>Graduate Research Assistant with Prof. Zhun Deng.</p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>University of Utah</span><span class="when">2021–2024</span></p>
+    <p>B.S. in Computer Science, minor in Mathematics.<br>Dean's List, five semesters. Utah Global Scholarship, four years.</p>
+  </div>
+</section>
+
+<section class="cv-block" aria-labelledby="cv-papers">
+  <h2 id="cv-papers">Papers</h2>
+  <div class="entry">
+    <p class="entry-head"><span>Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment</span></p>
+    <p class="venue">NeurIPS 2026 Workshop on Foundations of LLM Post-Training in Changing Environments. Poster.</p>
+    <p>How to allocate a limited budget of preference queries across users whose welfare differs. I ran all experiments, on four OpinionQA groups.</p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>BRIGADE: Bayesian Runtime Inference Guiding Agentic DAG Execution</span></p>
+    <p class="venue">Preprint, 2026. Co-first author.</p>
+    <p>A Bayesian controller tracks uncertainty over dependent subtask outputs and decides when to execute, refine, verify, or stop. Two-step lookahead values a verification only when it can change a later action. In a five-node simulation at budget 7.5, task success reached 26.0% against 18.5% for the strongest baseline; also evaluated on the 57-task AppWorld development split.</p>
+  </div>
+</section>
+
+<section class="cv-block" aria-labelledby="cv-projects">
+  <h2 id="cv-projects">Other research</h2>
+  <div class="entry">
+    <p class="entry-head"><span>Identity-preserving image generation</span><span class="when">Ongoing</span></p>
+    <p>With Prof. Xiaoming Liu. How facial geometry, local appearance, and background edits affect whether a generated face stays recognizable.</p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>Image inpainting with latent flow matching</span><span class="when">2025</span></p>
+    <p>A mask-conditioned latent velocity field over a frozen VAE, sampled with an ODE solver. PSNR 38.9 and FID 2.7 on CelebA-HQ; PSNR 42.4 and FID 1.3 on Landscape-HQ.</p>
+  </div>
+</section>
+
+<section class="cv-block" aria-labelledby="cv-engineering">
+  <h2 id="cv-engineering">Engineering</h2>
+  <div class="entry">
+    <p class="entry-head"><span>Humanoid basketball</span><span class="when">2026</span></p>
+    <p>Whole-body shooting for a simulated Unitree G1 in Isaac Lab: human motion capture retargeted to the robot, a motion-tracking policy, then RL with a ball-flight reward. 62% on jump shots and 53% on free throws from 4.19 m, in simulation. <a href="https://github.com/LianruiBruce/humanoid-basketball">Code</a></p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>Budget-aware search agent</span><span class="when">2026</span></p>
+    <p>A Qwen3-1.7B search agent, LoRA-trained on one GPU, that reads the price of a search from its prompt and trades accuracy against cost on HotpotQA. Price-conditioned SFT significantly beats the untrained agent at four of five prices. <a href="https://github.com/LianruiBruce/budget-aware-search-agent">Code</a></p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>Wrap, legal-document analysis</span><span class="when">2024</span></p>
+    <p>Full-stack lead for a University of Utah capstone: a Chrome extension, web app, and NLP service that summarizes contracts and flags risk. Top Capstone Project and Staff Choice Award. <a href="https://github.com/LianruiBruce/wrap">Code</a></p>
+  </div>
+  <div class="entry">
+    <p class="entry-head"><span>Aureum Gale LLC</span><span class="when">2024</span></p>
+    <p>Game development engineering intern on an Unreal Engine 5 prototype.</p>
+  </div>
+</section>
+
+<section class="cv-block" aria-labelledby="cv-skills">
+  <h2 id="cv-skills">Methods and tools</h2>
+  <div class="entry">
+    <p>Preference learning, SFT, DPO, GRPO, LoRA, flow matching, experimental design.<br>Python, C++, PyTorch, Hugging Face, vLLM, Docker, Linux.</p>
+  </div>
+</section>
+
+<footer class="cv-foot">
+  <a href="mailto:lianruig@unc.edu">lianruig@unc.edu</a>
+  <a href="https://github.com/LianruiBruce">GitHub</a>
+  <a href="https://www.linkedin.com/in/lianrui-geng-01533a294/">LinkedIn</a>
+</footer>
